@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <table class="table table-rating caption-top">
+            <caption>
+
+            </caption>
+            <thead>
+                <tr>
+                    <th>№</th>
+                    <th>PE</th>
+                    <th>inf</th>
+                    <th>biologie</th>
+                    <th>chemistry</th>
+                    <th>geographi</th>
+                    <th>phisik</th>
+                    <th>English</th>
+                    <th><img src="./img/swordd.jpg" alt="internet ne potyanul" class="table-img"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&#8544</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                </tr>
+                <tr>
+                    <td>&#8545</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                </tr>
+                <tr>
+                    <td>&#8546</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                </tr>
+                <tr>
+                    <td>&#8547</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                </tr>
+                <tr>
+                    <td>&#8548</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                </tr>
+                <tr>
+                    <td>&#8549</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                    <td>12</th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>№</th>
+                    <th>PE</th>
+                    <th>inf</th>
+                    <th>biologie</th>
+                    <th>chemistry</th>
+                    <th>geographi</th>
+                    <th>phisik</th>
+                    <th>English</th>
+                    <th></th>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+    <section>
+        <form action="" class="form" autocomplete method="get" name="form">
+            <h2>
+                Zapolnite formu
+            </h2>
+            <p>
+                <b>ваше имя</b>
+                <input type="text" name="username" required>
+
+                <b>Email</b>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <b>Пароль</b>
+                <input type="password" name="password">
+
+                <b>реальный Возраст</b>
+                <input type="number" name="number">
+            </p>
+            <p>
+                <b>Ваш лбимый цвет</b>
+                <input type="color" name="color">
+
+                <b>Резюме</b>
+                <input type="file" name="file">
+            </p>
+            <p>
+                <b>дата рождения</b>
+                <input type="date" name="date">
+            </p>
+            <p>
+                <b> чем вы занимаетесь</b><br>
+                <label for="front">frontend</label>
+                <input type="checkbox" name="check" id="front">
+                <label for="back">backend</label>
+                <input type="checkbox" name="check" id="back">
+                <label for="full">fullstack</label>
+                <input type="checkbox" name="check" id="full">
+            </p>
+            <p>
+                <b> тип занятостей</b><br>
+                <label for="offline">offline</label>
+                <input type="radio" name="rad" id="offline">
+                <label for="remote">remote</label>
+                <input type="radio" name="rad" id="remote">
+                <label for="part">part</label>
+                <input type="radio" name="rad" id="part">
+            </p>
+            <p>
+                <b>почему мы должни выбрать именно вас?</b>
+                <textarea name="area" id="" cols="30" rows="10"></textarea>
+            </p>
+
+            <p class="captcha field">
+            <b>captcha</b>
+            <img src="./img/captcha.jfif" alt="captcha">
+            <input type="text" name="captcha" class="captcha__check" required pattern="50">
+            <span class="captcha__span">😁</span>
+            <span class="captcha__false">Попробуйте еще раз</span>
+            
+            </p>
+            <p>
+                <input type="reset">
+                <input type="submit" name="submit">
+            </p>
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

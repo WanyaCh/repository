@@ -1,0 +1,68 @@
+.table-rating{
+    width: 90%;
+    margin: 50px auto;
+    background-color: rgb(146, 142, 142);
+}
+.table-rating th, .table-rating td{
+    color: rgb(255, 255, 255);
+    border: 2px solid grey;
+    text-align: center;
+}
+.table-img{
+    width: 50px;
+}
+.table-rating tbody{
+    background-color: rgb(53, 47, 47);
+    cursor: pointer;
+}
+.table-rating thead, .table-rating tfoot, .table-rating td:hover{
+    background: black;
+}
+.table-rating caption{
+    width: 100%;
+    height: 100px;
+    background-image: url("../img/Sword.jpg");
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+.form{
+    width: 851px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 8px 7px -1px gray;
+    color: white;
+    background: rgb(184, 182, 182);
+}
+.form h2{
+    text-shadow: 3px 3px 0 rgb(91, 91, 91);
+}
+.field{
+    display: inline-block;
+}
+.captcha img{
+    width: 60px;
+}
+.captcha__span{
+    position: relative;
+}
+.captcha__span::after{
+    position: absolute;
+    left: 10px;
+}
+.captcha__check:valid + .captcha__span::after{
+    content: url('../img/ok.png');
+}
+.captcha__check:invalid + .captcha__span::after{
+    content: url('../img/nook.png');
+}
+.captcha__false{
+    color: red;
+}
+.captcha__check:valid~ .captcha__false{
+    display: none;
+}
